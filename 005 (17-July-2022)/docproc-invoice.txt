@@ -1,0 +1,19 @@
+******************************************************************
+                             Invoice
+******************************************************************
+Customer-ID: sm-LK0080145
+Inv-ID: inv-00001
+Dated: Mar 31 2018
+From: Space Mechanics Inc.
+To: Starfleet Interplanatory HQ
+Amount: 7650
+SGST: 500
+Total: 8150
+InWords: Space Rupees Eight thousand one hundred fifty only
+
+Items
+1) Matter antimatter fusion controller, 2000, 200
+2) External inertial damper, 3100, 180
+3) Type X phaser, 500, 35
+4) 2MW Fusion reactor, 1200, 85
+5) Transporter base dial, 850
