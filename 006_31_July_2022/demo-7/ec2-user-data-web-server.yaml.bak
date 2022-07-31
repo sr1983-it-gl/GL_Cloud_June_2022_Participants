@@ -32,7 +32,7 @@ Resources:
       GroupDescription: SSH-22 and HTTP-80 Access
       Tags:
         - Key: "Name"
-          Value: "SSH-DefaultPort-Open"            
+          Value: "SSH-HTTP-DefaultPort-Open"            
       SecurityGroupIngress:
       - CidrIp: 0.0.0.0/0
         FromPort: 22

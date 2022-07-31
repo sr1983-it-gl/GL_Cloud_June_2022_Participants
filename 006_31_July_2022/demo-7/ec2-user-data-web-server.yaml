@@ -24,7 +24,7 @@ Resources:
           yum install -y httpd
           systemctl start httpd
           systemctl enable httpd
-          echo "Hello World from Web Server" > /var/www/html/index.html
+          echo "Hello World from Web Server - From CloudFormation template" > /var/www/html/index.html
 
   SSHHTTPSecurityGroup:
     Type: AWS::EC2::SecurityGroup
