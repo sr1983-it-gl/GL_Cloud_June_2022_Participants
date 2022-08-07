@@ -15,17 +15,17 @@
         "VPCId": {
             "Description": "Default VPC Id",
             "Type": "AWS::EC2::VPC::Id",
-            "Default": "vpc-117fd76b"
+            "Default": "vpc-05e95f011092edd9b"
         },
         "Subnets1": {
             "Description": "VPC Subnet-1 Id",
             "Type": "AWS::EC2::Subnet::Id",
-            "Default": "subnet-0a22b924"
+            "Default": "subnet-0c2225906e7c37160"
         },
         "Subnets2": {
             "Description": "VPC Subnet-2 Id",
             "Type": "AWS::EC2::Subnet::Id",
-            "Default": "subnet-35079b52"
+            "Default": "subnet-0c2225906e7c37160"
         }
     },
     "Resources": {

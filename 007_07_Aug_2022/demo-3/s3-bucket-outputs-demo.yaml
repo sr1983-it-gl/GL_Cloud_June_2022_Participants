@@ -11,10 +11,10 @@ Resources:
 Outputs:
   MyS3Bucket:
     Description: Bucket Created using this template.
-    Value: !Ref MyS3Bucket
+    Value: !Ref MyS3Bucket       
   MyS3BucketArn:
     Description: ARN for the new bucket.
-    Value: !GetAtt MyS3Bucket.Arn 
+    Value: !GetAtt MyS3Bucket.Arn
   TestOutputName1:
     Description: Demonstrates the usage of Outputs.
     Value: "Test Output Value1"

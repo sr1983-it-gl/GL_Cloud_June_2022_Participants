@@ -4,7 +4,7 @@ Resources:
     Type: AWS::CloudFormation::Stack
     Properties:
       TemplateURL:
-        https://shunmuga-cf-templates-07-aug-2022.s3.amazonaws.com/nested-stack-ec2-security-group-params.yaml
+        https://shunmuga-cf-stacks-07-august-2022.s3.amazonaws.com/nested-stack-ec2-security-group-params.yaml
       Parameters:
         SSHSecurityGroupDescription: "SSH 22 - supplied by parent stack"
         HTTPSecurityGroupDescription: "HTTP 80 - supplied by parent stack"

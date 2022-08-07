@@ -4,8 +4,8 @@ Resources:
     Type: AWS::CloudFormation::Stack
     Properties:
       TemplateURL:
-        https://shunmuga-cf-templates-07-aug-2022.s3.amazonaws.com/nested-stack-single-ec2-launch.yaml
-      
+        https://shunmuga-cf-stacks-07-august-2022.s3.amazonaws.com/nested-stack-single-ec2-launch.yaml
+         
   MyParentEC2Instance:
     Type: AWS::EC2::Instance
     Properties:

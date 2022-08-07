@@ -25,14 +25,14 @@ Resources:
           systemctl start httpd
           systemctl enable httpd
           echo "Hello World from Web Server - From CloudFormation template" > /var/www/html/index.html
-
+   
   SSHHTTPSecurityGroup:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: SSH-22 and HTTP-80 Access
       Tags:
         - Key: "Name"
-          Value: "SSH-HTTP-DefaultPort-Open"            
+          Value: "SSH-HTTP-DefaultPort-Open"                       
       SecurityGroupIngress:
       - CidrIp: 0.0.0.0/0
         FromPort: 22
